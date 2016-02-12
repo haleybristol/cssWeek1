@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+* {
+  font-family: 'Amatic SC', cursive;
+}
+.navbar {
+  float: right;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+#home {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  padding-right: 20px;
+}
+
+#home:hover ,#checkout:hover {
+  color: red;
+}
+
+
+#checkout {
+  padding-right: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  text-align: center;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+#brew {
+  width: 250px;
+  border: 10px solid black;
+  padding: 40px;
+  padding-right: -12px;
+  float: left;
+  margin: 40px;
+  margin-top: 20px;
+  position: relative;
+  padding-top: 30px;
+}
+
+.description {
+  position: absolute;
+  right: 50px;
+  margin-left: 20px;
+  left: 20px;
+}
+ul {
+  margin-left: 20px;
+}

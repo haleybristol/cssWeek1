@@ -1,0 +1,72 @@
+* {
+  font-family: 'Amatic SC', cursive;
+}
+
+#nav {
+  float: right;
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 15px;
+}
+
+#nav: hover {
+  color: red;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+label {
+  margin: 40px;
+  margin-top: 20px;
+}
+
+#orange {
+  float: left;
+  width: 90px;
+  border: 3px solid black;
+  margin-left: 80px;
+  margin-top: 50px;
+  padding-right: 21px;
+  padding-left: 20px;
+}
+
+#oprice {
+  margin-left: 50px;
+  position: absolute;
+  top: 700px;
+  left: 50px;
+
+}
+
+#beet {
+  position: relative;
+  float: left;
+  width: 96px;
+  border: 3px solid black;
+  margin-left: 80px;
+  margin-top: 50px;
+  padding-right: 21px;
+  padding-left: 20px;
+}
+
+#bprice {
+  padding-left: 145px;
+  position: absolute;
+  top: 700px;
+  left: 190px;
+}
+
+
+span {
+  text-align: center;
+}
